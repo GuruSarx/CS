@@ -1,40 +1,55 @@
 {
-  "id": "sarxs-compact-character-sheet",
-  "title": "Sarxs Compact Character Sheet",
-  "description": "A compact 5e character sheet Sarx uses",
-  "authors": [
-    {
-      "name": "Sarx Poopsmith",
-    }
-  ],
-  "version": "0.0.1",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "11.314"
-  },
-  "esmodules": [
-    "module/foundryvtt-SarxSheet.js"
-  ],
-  "styles": [
-    "styles/foundryvtt-SarxSheet.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "2.2.0",
-          "verified": "2.3.1"
+    "id": "compact-beyond-5e-sheet",
+    "title": "Compact DnDBeyond 5e Character Sheet",
+    "description": "Minimal 5e character sheet Sarx uses.",
+    "authors": [
+        {
+            "name": "Sarx Poopsmith",
+            "discord": "GuruSarx",
+            "url": "https://github.com/GuruSarx",
         }
-      }
-    ]
+    ],
+    "license": "https://github.com/GuruSarx/CS/blob/master/LICENSE",
+    "bugs": "https://github.com/GuruSarx/CS/issues",
+    "changelog": "https://github.com/GuruSarx/CS/releases",
+    "download": "https://github.com/GuruSarx/CS/releases/download/v0.0.1/sarx.zip",
+    "manifest": "https://github.com/GuruSarx/CS/releases/latest/download/module.json",
+    "readme": "https://github.com/GuruSarx/CS/blob/master/README.md",
+    "url": "https://github.com/GuruSarx/CS",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11.313"
+    },
+    "scripts": [],
+    "esmodules": [
+        "module/CS.js"
+    ],
+    "styles": [
+        "styles/CS.css"
+    ],
+    "packs": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "2.2.0",
+                    "verified": "2.3.1"
+                }
+            }
+        ],
+        "conflicts": []
+    },
+    "socket": false,
+    "library": false,
+    "manifestPlusVersion": "1.2.0"
 }
