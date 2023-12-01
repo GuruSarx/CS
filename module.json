@@ -37,15 +37,5 @@
           "verified": "2.3.1"
         }
       }
-    ],
-    "requires": [
-      {
-        "id": "character-actions-list-5e",
-        "type": "module",
-        "compatibility": {
-          "verified": "6.1.1"
-        }
-      }
     ]
-
 }
