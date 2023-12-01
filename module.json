@@ -5,22 +5,13 @@
     "authors": [
         {
             "name": "Sarx Poopsmith",
-            "discord": "GuruSarx",
-            "url": "https://github.com/GuruSarx",
         }
-    ],
-    "license": "https://github.com/GuruSarx/CS/blob/master/LICENSE",
-    "bugs": "https://github.com/GuruSarx/CS/issues",
-    "changelog": "https://github.com/GuruSarx/CS/releases",
-    "download": "https://github.com/GuruSarx/CS/releases/download/v0.0.1/sarx.zip",
-    "manifest": "https://github.com/GuruSarx/CS/releases/latest/download/module.json",
-    "readme": "https://github.com/GuruSarx/CS/blob/master/README.md",
-    "url": "https://github.com/GuruSarx/CS",
-    "version": "0.0.1",
-    "compatibility": {
-        "minimum": "10",
-        "verified": "11.313"
-    },
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+   },
     "scripts": [],
     "esmodules": [
         "module/CS.js"
@@ -47,9 +38,5 @@
                 }
             }
         ],
-        "conflicts": []
     },
-    "socket": false,
-    "library": false,
-    "manifestPlusVersion": "1.2.0"
 }
