@@ -1,13 +1,13 @@
 {
-    "id": "compact-beyond-5e-sheet",
-    "title": "Compact DnDBeyond 5e Character Sheet",
-    "description": "Minimal 5e character sheet Sarx uses.",
-    "authors": [
-        {
-            "name": "Sarx Poopsmith",
-        }
+  "id": "sarxs-character-sheet",
+  "title": "Sarxs Character Sheet",
+  "description": "Minimal 5e character sheet Sarx uses.",
+  "authors": [
+    {
+    "name": "A. Poopsmith"
+    }
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -21,22 +21,10 @@
     ],
     "packs": [],
     "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "compatibility": {
-                    "minimum": "2.2.0",
-                    "verified": "2.3.1"
-                }
-            }
-        ],
-    },
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+     }
+  ]
 }
