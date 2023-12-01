@@ -1,0 +1,51 @@
+{
+  "id": "sarxs-compact-character-sheet",
+  "title": "Sarxs Compact Character Sheet",
+  "description": "A compact 5e character sheet Sarx uses",
+  "authors": [
+    {
+      "name": "Sarx Poopsmith",
+      "flags": {}
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.314"
+  },
+  "esmodules": [
+    "module/foundryvtt-SarxSheet.js"
+  ],
+  "styles": [
+    "styles/foundryvtt-SarxSheet.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.2.0",
+          "verified": "2.3.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "character-actions-list-5e",
+        "type": "module",
+        "compatibility": {
+          "verified": "6.1.1"
+        }
+      }
+    ]
+
+}

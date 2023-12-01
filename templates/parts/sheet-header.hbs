@@ -1,0 +1,41 @@
+{{!-- Sheet Header --}}
+<header class="sheet-header">
+  {{> "dnd5e.actor-warnings"}}
+
+  <img class="profile" src="{{actor.img}}" title="{{actor.name}}" data-edit="img" />
+
+  <section class="header-details">
+    <h1>
+      <input name="name" type="text" {{#if options.locked}}class="locked"{{/if}} value="{{actor.name}}" placeholder="{{ localize 'DND5E.Name' }}" />
+    </h1>
+
+    {{!-- Character Summary --}}
+    <div class="inline-summary">
+        <input type="text" name="system.details.race" value="{{system.details.race}}"
+          placeholder="{{ localize 'DND5E.Race' }}" />
+    </div>
+
+    <div class="header-actions">
+      <a class="rest short-rest">{{ localize 'DND5E.RestS' }}<i class="fas fa-hourglass-half"></i></a>
+      <a class="rest long-rest">{{ localize 'DND5E.RestL' }}<i class="fas fa-hourglass-end"></i></a>
+    </div>
+  </section>
+
+  <section>
+    <ul class="ability-scores ability-score-row">
+      <li class="attribute movement" data-tooltip-direction="RIGHT">
+        <h4 class="attribute-name box-title">{{ localize "DND5E.Movement" }}</h4>
+        <a class="config-button" data-action="movement" data-tooltip="{{localize 'DND5E.MovementConfig'}}">
+          <i class="fas fa-cog"></i>
+        </a>
+        <div class="attribute-value">
+          <span>{{movement.primary}}</span>
+        </div>
+        <footer class="attribute-footer">
+          <span>{{movement.special}}</span>
+        </footer>
+      </li>
+    </ul>
+  </section>
+
+</header>
