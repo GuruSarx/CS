@@ -12,19 +12,17 @@
     "minimum": "10",
     "verified": "11"
    },
-    "scripts": [],
     "esmodules": [
-        "module/CS.js"
-    ],
+        "module/foundryvtt-SarxSheet.js"
+  ],
     "styles": [
-        "styles/CS.css"
-    ],
-    "packs": [],
+        "styles/foundryvtt-SarxSheet.css"
+  ],
     "languages": [
-      {
+    {
           "lang": "en",
           "name": "English",
           "path": "lang/en.json"
-     }
+    }
   ]
 }
